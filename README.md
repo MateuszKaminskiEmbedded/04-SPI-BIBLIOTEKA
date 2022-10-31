@@ -14,6 +14,7 @@ Plik ten zawiera definicję wszystkich funkcji. Funkcje wysyłające/odbierając
 - polaryzację zegara
 
 main.c
+
 W pliku tym znajduje się konfiguracja pinów używanych przez wybrane moduły SPI oraz funkcja inicjalizacyjna.
 
 W celu użycia biblioteki należy:
