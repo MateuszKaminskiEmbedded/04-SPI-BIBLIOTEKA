@@ -2,9 +2,11 @@
 Biblioteka składa się zasadniczo z trzech funkcji. Są one jednak powielone, z tego względu, że użyty mikrokontroler ma wbudowanych aż 6 modułów SPI. 
 
 SPI.h
+
 Zawiera deklaracje funkcji. Daje nam do dyspozycji funkcję inicjalizacyjną każdego modułu SPI, funkcję wysyłającą/odbierającą znak, albo wysyłającą/odbierającą łańcuch znaków.
 
 SPI.c
+
 Plik ten zawiera definicję wszystkich funkcji. Funkcje wysyłające/odbierające dane nie wymagają komentarza. Uwagę należy za to zwrócić na funkcje SPIxInit(). To w niej, w razie potrzeby można ustawić parametry takie jak:
 - szybkość transmisji
 - tryb pracy
