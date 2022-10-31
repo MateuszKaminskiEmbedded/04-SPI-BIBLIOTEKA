@@ -19,6 +19,7 @@ main.c
 
 W pliku tym znajduje się konfiguracja pinów używanych przez wybrane moduły SPI oraz funkcja inicjalizacyjna.
 
+
 W celu użycia biblioteki należy:
 1) Dodać pliki do projktu
 2) Dołaczyć plik nagłówkowy do pliku głównego
